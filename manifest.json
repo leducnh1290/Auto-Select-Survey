@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Select Survey Tool",
+  "version": "1.0",
+  "description": "Tự động chọn và lưu kết quả cho phiếu khảo sát.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/khao-sat-sinh-vien/phieu-khao-sat-detail/*"],
+      "js": ["popup.js"]
+    }
+  ]
+}
