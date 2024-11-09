@@ -1,41 +1,43 @@
-# Tool Tự Động Đánh Giá Giảng Viên Hutech
+# Auto Select Survey Tool For Hutech Student
 
-**Tool Tự Động Đánh Giá Giảng Viên Hutech** là một ứng dụng web hỗ trợ sinh viên Hutech trong việc đánh giá giảng viên sau mỗi học kỳ. Công cụ này giúp sinh viên thực hiện các đánh giá một cách nhanh chóng, chính xác và hiệu quả, đồng thời giúp nhà trường thu thập và phân tích dữ liệu để cải thiện chất lượng giảng dạy.
+**Auto Select Survey Tool** là một công cụ tự động giúp sinh viên HUTECH hoàn thành khảo sát giảng viên nhanh chóng bằng cách tự động chọn câu trả lời từ danh sách câu hỏi đánh giá giảng viên trên trang khảo sát của trường. Công cụ này giúp tiết kiệm thời gian cho sinh viên trong việc điền khảo sát.
 
 ## Mục Lục
 
 - [Giới Thiệu](#giới-thiệu)
-- [Chức Năng Chính](#chức-năng-chính)
-- [Cài Đặt](#cài-đặt)
-- [Hướng Dẫn Sử Dụng](#hướng-dẫn-sử-dụng)
-- [Lợi Ích](#lợi-ích)
-- [Thông Tin Liên Hệ](#thông-tin-liên-hệ)
+- [Chức Năng](#chức-năng)
+- [Cách Cài Đặt](#cách-cài-đặt)
+- [Cách Sử Dụng](#cách-sử-dụng)
+- [Liên Hệ](#liên-hệ)
 
 ## Giới Thiệu
 
-Tool Tự Động Đánh Giá Giảng Viên Hutech giúp sinh viên đánh giá giảng viên của mình qua các câu hỏi tự động. Kết quả đánh giá sẽ được hệ thống thu thập, xử lý và lưu trữ, cung cấp thông tin phản hồi cho giảng viên và nhà trường để cải thiện chất lượng giảng dạy.
+Công cụ **Auto Select Survey Tool** được phát triển để giúp sinh viên HUTECH thực hiện khảo sát giảng viên tự động. Sau khi truy cập vào trang khảo sát, công cụ sẽ yêu cầu người dùng chọn mức độ hài lòng từ 1 đến 5, sau đó tự động điền vào câu trả lời tương ứng và gửi kết quả.
 
-## Chức Năng Chính
+## Chức Năng
 
-- **Tạo Đánh Giá Tự Động**: Sinh viên có thể tự động truy cập các biểu mẫu đánh giá giảng viên dựa trên môn học đã tham gia.
-- **Câu Hỏi Đánh Giá Đa Dạng**: Bao gồm các câu hỏi về kiến thức chuyên môn, phương pháp giảng dạy, thái độ và khả năng truyền đạt của giảng viên.
-- **Phân Loại Giảng Viên**: Tool tự động lọc giảng viên theo bộ môn và lớp học, giúp sinh viên dễ dàng thực hiện đánh giá.
-- **Phản Hồi Kết Quả**: Sau khi đánh giá, kết quả sẽ được xử lý và lưu trữ để cung cấp báo cáo chi tiết cho nhà trường.
-- **Bảo Mật Cao**: Dữ liệu cá nhân của sinh viên được bảo mật và mã hóa.
-- **Thân Thiện với Người Dùng**: Giao diện dễ sử dụng và phù hợp với mọi đối tượng người dùng.
+- **Chọn câu trả lời tự động**: Sau khi nhập mức độ hài lòng (1-5), công cụ sẽ tự động chọn câu trả lời tương ứng trong biểu mẫu khảo sát.
+- **Tự động nhấn nút "Lưu kết quả"**: Sau khi điền câu trả lời, công cụ sẽ tự động tìm và nhấn nút "Lưu kết quả" để hoàn thành khảo sát.
+- **Hỗ trợ trang khảo sát của HUTECH**: Công cụ này chỉ hoạt động trên trang khảo sát giảng viên của trường HUTECH.
 
-## Cài Đặt
+## Cách Cài Đặt
 
-Tool có thể được triển khai dễ dàng trên hệ thống của trường hoặc trên một máy chủ web riêng biệt. Để cài đặt và sử dụng, bạn cần thực hiện các bước sau:
+Công cụ này được triển khai dưới dạng một tiện ích mở rộng cho Chrome (Chrome Extension).
 
-### Yêu Cầu Hệ Thống
+### Các Bước Cài Đặt
 
-- **Web Browser**: Chrome, Firefox hoặc Safari.
-- **Hệ Điều Hành**: Windows, macOS, hoặc Linux.
-- **Kết Nối Internet**: Cần có kết nối internet ổn định để truy cập công cụ.
-
-### Cài Đặt
-
-1. **Clone Repository**:
+1. **Clone repository** (hoặc tải mã nguồn từ GitHub):
    ```bash
-   git clone https://github.com/hutech/auto-evaluation-tool.git
+   git clone https://github.com/hutech/auto-select-survey.git
+
+
+### Giải thích về code
+
+1. **Kiểm tra URL**: Công cụ chỉ hoạt động trên trang khảo sát sinh viên của HUTECH. Nếu URL không đúng, nó sẽ dừng và hiển thị cảnh báo.
+2. **Chọn câu trả lời**: Công cụ yêu cầu người dùng nhập một số từ 1 đến 5 để chọn mức độ hài lòng, sau đó tự động chọn câu trả lời tương ứng trong form khảo sát.
+3. **Lưu kết quả**: Sau khi chọn câu trả lời, công cụ tìm nút "Lưu kết quả" và nhấn nút này để hoàn tất quá trình khảo sát.
+
+### Lưu ý
+
+- Công cụ này chỉ hoạt động trên trang khảo sát của HUTECH, vì vậy nếu bạn sử dụng nó trên trang khác, nó sẽ không hoạt động đúng cách.
+
