@@ -28,9 +28,9 @@ Công cụ này được triển khai dưới dạng một tiện ích mở rộ
 
 ### 1. Clone Mã Nguồn Về (hoặc bạn cũng có thể tải bản zip về và giải nén ra)
 ```bash
-git clone https://github.com/hutech/auto-select-survey.git
+git clone https://github.com/hutech/Auto-Select-Survey.git
 ```
-Lệnh này sẽ tạo một thư mục `auto-select-survey` trên máy tính của bạn chứa toàn bộ mã nguồn của công cụ.
+Lệnh này sẽ tạo một thư mục `Auto-Select-Survey` trên máy tính của bạn chứa toàn bộ mã nguồn của công cụ.
 
 ### 2. Cài Đặt Extension vào Chrome
 
@@ -38,7 +38,7 @@ Lệnh này sẽ tạo một thư mục `auto-select-survey` trên máy tính c�
 2. **Bật chế độ Developer Mode**: Ở góc phải trên cùng của trang Extensions, bật **Developer mode** (Chế độ nhà phát triển).
 3. **Chọn "Load unpacked"**: Sau khi bật Developer Mode, nhấn nút **Load unpacked(Tiện ích đã giải nén)**.
 4. **Chọn thư mục chứa mã nguồn**:
-   - Chọn thư mục `auto-select-survey` mà bạn vừa tải về trong bước trước.
+   - Chọn thư mục `Auto-Select-Survey` mà bạn vừa tải về trong bước trước.
    - Thư mục này chứa các file của tiện ích mở rộng Chrome mà bạn sẽ cài vào trình duyệt.
 
 Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Chrome và xuất hiện trên thanh công cụ của trình duyệt.
@@ -61,7 +61,7 @@ Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Ch
 
 ### 4. Các Cập Nhật & Bảo Trì
 
-- **Cập nhật**: Nếu có thay đổi hoặc cập nhật mới từ repository, bạn có thể cập nhật mã nguồn của công cụ bằng cách sử dụng lệnh `git pull` trong thư mục `auto-select-survey`:
+- **Cập nhật**: Nếu có thay đổi hoặc cập nhật mới từ repository, bạn có thể cập nhật mã nguồn của công cụ bằng cách sử dụng lệnh `git pull` trong thư mục `Auto-Select-Survey`:
 
    ```bash
    git pull origin main
