@@ -31,13 +31,59 @@ Công cụ này được triển khai dưới dạng một tiện ích mở rộ
    git clone https://github.com/hutech/auto-select-survey.git
 
 
-### Giải thích về code
+Nếu bạn mới chỉ đến bước **Clone repository**, dưới đây là các bước tiếp theo để cài đặt và sử dụng tool **Auto Select Survey Tool** trên Chrome.
 
-1. **Kiểm tra URL**: Công cụ chỉ hoạt động trên trang khảo sát sinh viên của HUTECH. Nếu URL không đúng, nó sẽ dừng và hiển thị cảnh báo.
-2. **Chọn câu trả lời**: Công cụ yêu cầu người dùng nhập một số từ 1 đến 5 để chọn mức độ hài lòng, sau đó tự động chọn câu trả lời tương ứng trong form khảo sát.
-3. **Lưu kết quả**: Sau khi chọn câu trả lời, công cụ tìm nút "Lưu kết quả" và nhấn nút này để hoàn tất quá trình khảo sát.
+## Tiếp theo sau khi Clone Repository
 
-### Lưu ý
+### 1. Tải Mã nguồn về
+Sau khi clone repository, bạn cần tải mã nguồn từ GitHub về máy tính của mình.
 
-- Công cụ này chỉ hoạt động trên trang khảo sát của HUTECH, vì vậy nếu bạn sử dụng nó trên trang khác, nó sẽ không hoạt động đúng cách.
+```bash
+git clone https://github.com/hutech/auto-select-survey.git
+```
+
+Lệnh này sẽ tạo một thư mục `auto-select-survey` trên máy tính của bạn chứa toàn bộ mã nguồn của công cụ.
+
+### 2. Cài Đặt Extension vào Chrome
+
+1. **Mở Chrome** và vào trang [Extensions](chrome://extensions/).
+2. **Bật chế độ Developer Mode**: Ở góc phải trên cùng của trang Extensions, bật **Developer mode** (Chế độ nhà phát triển).
+3. **Chọn "Load unpacked"**: Sau khi bật Developer Mode, nhấn nút **Load unpacked**.
+4. **Chọn thư mục chứa mã nguồn**:
+   - Chọn thư mục `auto-select-survey` mà bạn vừa tải về trong bước trước.
+   - Thư mục này chứa các file của tiện ích mở rộng Chrome mà bạn sẽ cài vào trình duyệt.
+
+Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Chrome và xuất hiện trên thanh công cụ của trình duyệt.
+
+### 3. Cách Sử Dụng Extension
+
+1. **Mở trang khảo sát sinh viên**:
+   - Truy cập vào trang khảo sát sinh viên của HUTECH (ví dụ: `https://hutech.edu.vn/khao-sat-sinh-vien/phieu-khao-sat-detail/...`).
+   
+2. **Kích hoạt tiện ích**:
+   - Khi trang khảo sát đã tải xong, nhấp vào biểu tượng tiện ích trên thanh công cụ của Chrome.
+   - Tiện ích sẽ yêu cầu bạn nhập mức độ hài lòng từ 1 đến 5, và tự động điền câu trả lời vào form khảo sát.
+   
+3. **Hoàn thành khảo sát**:
+   - Sau khi bạn chọn mức độ hài lòng (ví dụ: 3 - Phân vân), công cụ sẽ tự động đánh dấu câu trả lời và nhấn nút "Lưu kết quả" để gửi khảo sát.
+
+### 4. Các Cập Nhật & Bảo Trì
+
+- **Cập nhật**: Nếu có thay đổi hoặc cập nhật mới từ repository, bạn có thể cập nhật mã nguồn của công cụ bằng cách sử dụng lệnh `git pull` trong thư mục `auto-select-survey`:
+
+   ```bash
+   git pull origin main
+   ```
+
+- **Sửa lỗi**: Nếu bạn phát hiện bất kỳ lỗi nào trong quá trình sử dụng, bạn có thể báo cáo qua GitHub Issues hoặc liên hệ với nhóm phát triển để khắc phục.
+
+### 5. Liên Hệ & Hỗ Trợ
+
+- **Email hỗ trợ**: leducanh1290@gmail.com
+- **Trang web HUTECH**: [HUTECH Official](https://www.hutech.edu.vn)
+- **Facebook tác giả**: [Lê Đức Anh (Cà Chua)](https://facebook.com/leducanh1290)
+
+---
+
+Giờ đây, bạn đã hoàn tất việc cài đặt và sử dụng công cụ tự động chọn câu trả lời khảo sát cho HUTECH.
 
