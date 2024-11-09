@@ -43,7 +43,7 @@ Công cụ này được triển khai dưới dạng một tiện ích mở rộ
 Nếu bạn không muốn sử dụng Git, bạn có thể tải tệp ZIP từ release của repository và giải nén.
 
 1. **Tải Tệp ZIP**:
-   - Truy cập vào [Trang Releases trên GitHub]([Releases](https://github.com/leducnh1290/Auto-Select-Survey/releases/)).
+   - Truy cập vào [Trang Releases trên GitHub](https://github.com/leducnh1290/Auto-Select-Survey/releases/).
    - Tải tệp ZIP của phiên bản mới nhất (chọn tệp `.zip`).
    
 2. **Giải Nén Tệp**:
