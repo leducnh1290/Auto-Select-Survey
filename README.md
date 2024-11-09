@@ -1,6 +1,3 @@
-Dưới đây là bản sửa lại với phần hướng dẫn tải tệp ZIP từ release:
-
-```markdown
 # Auto Select Survey Tool For Hutech Students
 
 **Auto Select Survey Tool** là một công cụ tự động giúp sinh viên HUTECH hoàn thành khảo sát giảng viên nhanh chóng bằng cách tự động chọn câu trả lời từ danh sách câu hỏi đánh giá giảng viên trên trang khảo sát của trường. Công cụ này giúp tiết kiệm thời gian cho sinh viên trong việc điền khảo sát.
