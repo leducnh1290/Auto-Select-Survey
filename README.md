@@ -100,4 +100,3 @@ Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Ch
 ---
 
 Chúc may mắn và thành công!
-```
