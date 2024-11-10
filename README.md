@@ -85,7 +85,7 @@ Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Ch
 
 ## Demo Video
 
-https://raw.githubusercontent.com/leducnh1290/Auto-Select-Survey/refs/heads/main/2024-11-10%2015-14-10.mp4
+https://github.com/user-attachments/assets/353b2df4-d53e-4944-9e4b-e7c6055a754c
 
 ## Cập Nhật & Bảo Trì
 
