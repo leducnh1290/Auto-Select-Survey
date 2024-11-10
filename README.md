@@ -10,6 +10,7 @@
   - [Cài Đặt Qua Git](#cài-đặt-qua-git)
   - [Cài Đặt Qua ZIP](#cài-đặt-qua-zip)
 - [Cách Sử Dụng](#cách-sử-dụng)
+- [Demo Video](#demo-video)
 - [Cập Nhật & Bảo Trì](#cập-nhật--bảo-trì)
 - [Liên Hệ](#liên-hệ)
 
@@ -81,6 +82,15 @@ Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Ch
 3. **Tận Hưởng**:
    - Sau khi bạn chọn mức độ hài lòng (ví dụ: 3 - Phân vân), công cụ sẽ tự động đánh dấu câu trả lời và nhấn nút "Lưu kết quả" để gửi khảo sát.
    - Sau đó, nó sẽ tự động quay lại trang chọn phiếu, bạn chỉ cần chọn phiếu tiếp theo và làm lại từ bước 2.
+
+## Demo Video
+
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</p>
 
 ## Cập Nhật & Bảo Trì
 
