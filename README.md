@@ -85,12 +85,7 @@ Sau khi thực hiện các bước trên, tiện ích sẽ được cài vào Ch
 
 ## Demo Video
 
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" 
-          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  </iframe>
-</p>
+https://github.com/leducnh1290/Auto-Select-Survey/blob/b059410efd379eb6ff4d1a07aae7dbaf0d5f2a52/2024-11-10%2015-14-10.mp4
 
 ## Cập Nhật & Bảo Trì
 
